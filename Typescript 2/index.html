@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="alert-box">Uploaded successfully!</div>
+    <div class="flex-col">
+        <div style="display: flex; justify-content: center">
+            <label style="display: flex; align-items: center"><i
+                    style="font-size: 2rem; color: #ff3753; cursor: pointer" class="fas fa-file-upload"></i>
+                <input style="display: none" type="file">
+                <div style="margin-left: 12px" class="upload-file_name">
+                    Upload File
+                </div>
+            </label>
+        </div>
+        <div class="progress-bar">
+        </div>
+        <button class="btn-primary">Add to the list</button>
+        <ul class="ul-list"></ul>
+    </div>
+    <script>
+        var LOCATION = 'Ambala'
+    </script>
+    <script src="./dist/app.js"></script>
+</body>
+
+</html>
